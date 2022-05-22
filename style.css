@@ -1,0 +1,73 @@
+html{
+    box-sizing: border-box;
+  }
+  */ *::before, ::after{
+    box-sizing: inherit;
+  }
+  
+  .navigation{
+    background: #F6D53B;
+    border: none;
+    padding-bottom: 1rem;
+  }
+  
+  .icon{
+    display: inline-block;
+    font-family: Carrinady;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 12px 24px;
+    color: #000000;
+  }
+  
+  .navbtn{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F6D53B;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: all 0.3s;
+    border-radius: 14px;
+    margin-right: 1%;
+    padding: .5rem;
+    box-shadow:  2px 2px 2px #707070,
+               -3px -3px 3px #ffffff87;
+  }
+  
+  .navigation > .navbtn{
+    position: absolute;
+    right: 0rem;
+  }
+  .navbtn:hover {
+    background: #FFEFA5;
+    color: black;
+  }
+  
+  .sidebar{
+    display: flex;
+    background: #FFE863;
+    width: 15vw;
+    height: 22rem;
+  
+  }
+  
+  .sidebar > a{
+    font-family: Carrinady;
+    font-size: 3rem;
+    margin: 2rem 2rem;
+    padding: 2rem;
+  }
+  .sidecart{
+    background: #F6D53B;
+  }
+  
+  
+  .body{
+    background-color: #F6D53B;
+  }
+  
+  .footer{
+    height: 4rem;
+    flex:0 0 4em;
+  }
