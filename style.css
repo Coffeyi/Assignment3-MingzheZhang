@@ -49,19 +49,27 @@ html{
     background: #FFE863;
     width: 15vw;
     height: 22rem;
-  
   }
   
-  .sidebar > a{
+  .sidebar > ul{
     font-family: Carrinady;
-    font-size: 3rem;
-    margin: 2rem 2rem;
-    padding: 2rem;
+
+    font-size: 2rem;
+    margin: .5rem;
+    padding: .5rem;
   }
+
   .sidecart{
-    background: #F6D53B;
+    display: inline-block;
+    background: #FFE863;
+    width: 15vw;
+    height: 2rem;
   }
   
+  .sidecart > a{
+      text-align: center;
+      font-family: Carrinady;
+  }
   
   .body{
     background-color: #F6D53B;
