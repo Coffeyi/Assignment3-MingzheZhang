@@ -1,9 +1,10 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
-}w
+}
   
 .navigation{
   background: #F6D53B;
@@ -57,6 +58,7 @@ html {
   font-size: 2rem;
   margin: .5rem;
   padding: .5rem;
+  text-decoration-line : none;
 }
 
 .sidecart{
@@ -71,7 +73,7 @@ html {
   font-family: Carrinady;
 }
   
-.body{
+body{
   background-color: #F6D53B;
 }
   
