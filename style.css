@@ -48,6 +48,7 @@ html {
 
 .sidebar{
   display: flex;
+  flex-direction: column;
   background: #FFE863;
   width: 15vw;
   height: 50.5vw;
@@ -64,6 +65,7 @@ html {
 
 .sidecart{
   display: flex;
+  flex-direction: column;
   background: #FFE863;
   width: 15vw;
   height: 6rem;
@@ -85,7 +87,6 @@ body{
 }
 
 img{
-  display: none;
   height: auto;
   width: auto;
 }

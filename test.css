@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #ffdb3d;
+}
+
+.icon{
+    font-family: Carrinady;
+    src: url("/Fonts/Carrinady/Carrinady.ttf");
+    text-decoration: none;
+}
+
+.sidebar > .navigation > ul > li > a{
+    list-style: none;
+    text-decoration: none;
+}
