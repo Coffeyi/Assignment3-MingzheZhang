@@ -1,0 +1,36 @@
+Home page{
+    Icon        Search bar      Login   Register
+    sidebar     Recent viewed
+    Home        Promotion/ Image
+    category
+    Favourites
+    Sales
+
+    Cart        
+    cart item   New arrival
+                item    item    item    item
+
+                Popular
+                item    item    item    item
+    checkout
+
+                Footer
+}
+
+Product page{
+    Icon        Search bar      Login   Register
+    sidebar     Recent viewed
+    Home        Back button Product Image   Product information
+    category
+    Favourites
+    Sales
+
+    Cart                                   add to Favourites
+    cart item                              add to cart
+                
+                Popular
+                item    item    item    item
+    checkout
+
+                Footer
+}
