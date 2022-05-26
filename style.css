@@ -7,7 +7,7 @@ html {
 }
   
 .navigation{
-  background: #F6D53B;
+  background: #ffdb3d;
   border: none;
   padding-bottom: 1rem;
 }
@@ -50,10 +50,12 @@ html {
   display: flex;
   background: #FFE863;
   width: 15vw;
-  height: 22rem;
+  height: 50.5vw;
 }
 
 .sidebar > ul > li > a{
+  display: flex;
+  flex-direction: column;
   font-family: Carrinady;
   font-size: 2rem;
   margin-left: .5rem;
@@ -61,10 +63,10 @@ html {
 }
 
 .sidecart{
-  display: inline-block;
+  display: flex;
   background: #FFE863;
   width: 15vw;
-  height: 2rem;
+  height: 6rem;
 }
   
 .sidecart > a{
@@ -73,7 +75,19 @@ html {
 }
   
 body{
-  background-color: #F6D53B;
+  background-color: #ffdb3d;
+}
+
+.promotion{
+  display: flex;
+  width: 75%;
+  height: 60%;
+}
+
+img{
+  display: none;
+  height: auto;
+  width: auto;
 }
   
 .footer{
