@@ -41,7 +41,7 @@ html {
   right: 0rem;
 }
 
-.navbtn:hover {
+.navbtn: {
   background: #FFEFA5;
   color: black;
 }

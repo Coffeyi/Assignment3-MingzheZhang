@@ -1,3 +1,4 @@
+@import url(style.css);
 html {
     box-sizing: border-box;
 }
@@ -10,13 +11,54 @@ body{
     background-color: #ffdb3d;
 }
 
+.header{
+    display: flex;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
 .icon{
     font-family: Carrinady;
     src: url("/Fonts/Carrinady/Carrinady.ttf");
     text-decoration: none;
+    font-size: 2rem;
+    margin-right: 5rem;
 }
 
+.searchbar{
+    display: inline-flexbox;
+
+    border-radius: 10%;
+}
+
+.banner{
+
+    position: relative;
+    top:0%;
+    left: 20%;
+  
+}
+.banner>img{
+    width:50%
+}
+.sidebar{
+    position: fixed;
+    left:0%;
+}
+.sidebar > .navigation{
+    display: flex;
+    background-color: #ffe77c;
+    width: 15vw;
+    height: 80vh;
+}
 .sidebar > .navigation > ul > li > a{
     list-style: none;
     text-decoration: none;
+    color: #47297B;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
