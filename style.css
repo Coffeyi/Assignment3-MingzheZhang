@@ -1,4 +1,4 @@
-@import url(/Fonts/Carrinady/Carrinady.ttf);
+@import url(typography.css);
 html {
     box-sizing: border-box;
 }
@@ -18,8 +18,7 @@ body{
 }
 
 .icon{
-    font-family: Carrinady;
-    src: url("/Fonts/Carrinady/Carrinady.ttf");
+    font-family: menufont;
     text-decoration: none;
     font-size: 2rem;
     margin-right: 5rem;
