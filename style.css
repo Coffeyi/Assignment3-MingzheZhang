@@ -13,8 +13,13 @@ body{
 
 .header{
     display: flex;
-    margin-bottom: 2vh;
-    margin-top: 2vh;
+    position: fixed;
+    background-color: #e8bd00;
+    padding: 0%;
+    top: 0%;
+    height: 8%;
+    width: 100%;
+    padding-top: 1.2rem;
 }
 
 .icon{
@@ -22,42 +27,94 @@ body{
     text-decoration: none;
     font-size: 2rem;
     margin-right: 5rem;
+    padding-left: 2rem;
 }
 
-.searchbar{
-    display: inline-flexbox;
-
-    border-radius: 10%;
+.searchbox{
+    display: flex;
+    border-radius: 5rem;
+    align-items: center;
+    justify-items: center;
+    background-color: #FFEFA5;
 }
 
-.banner{
+.searchbox input{
+    flex: 1;
+    padding-left: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+}
 
-    position: relative;
-    top:0%;
-    left: 20%;
-  
+.searchbox + .headbtn{
+    font-family: menufont;
+    margin-left: 60%;
+    text-decoration: none;
+    color: #47297B;
 }
-.banner>img{
-    width:50%
+
+.headbtn + .headbtn{
+    font-family: menufont;
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #47297B;
 }
+
 .sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe77c;
     position: fixed;
+    top: 8%;
     left:0%;
+    width: 14.7%;
+    height: 92%;
 }
+
 .sidebar > .navigation{
     display: flex;
-    background-color: #ffe77c;
-    width: 15vw;
-    height: 80vh;
+    background-color: #2b4bc9;
+    height: 52%;
+
 }
+
 .sidebar > .navigation > ul > li > a{
     list-style: none;
     text-decoration: none;
     color: #47297B;
 }
 
-.products{
+.sidecart{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    text-align: center;
+    background-color: #FFD93D;
+    height: 4.7%;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.sidecart > a{
+    text-decoration: none;
+}
+.banner{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  
+}
+
+.banner>img{
+    width:50%
+}
+
+footer{
+    display: flex;
+    width: 85.4%;
+    height: 5rem;
+    flex-direction: column;
+    margin-top: 90%;
+    margin-left: 14.6%;
+    bottom: 0%;
+    background-color: #47297B;
 }

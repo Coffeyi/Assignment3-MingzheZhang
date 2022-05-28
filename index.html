@@ -8,42 +8,52 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
-        <span class="icon">OzMusic</span>
-        <span>
-            <input class="searchbar" type="text": placeholder="Search">
+        <a class="icon" href="index.html">OzMusic</a>
+        <span class="searchbox">
+            <input type="text": placeholder="Search">
         </span>
-        <a href="login">Login</a>
-        <a href="register">Register</a>
+        <a class="headbtn" href="login">Login</a>
+        <a class="headbtn" href="register">Register</a>
     </header>
-    
-    <section class="sidebar">
-        <nav class="navigation">
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="categories">categories</a></li>
-                <li><a href="favourites">Favourites</a></li>
-                <li><a href="sales">Sales</a></li>
-            </ul>
-        </nav>
-        <div class="cart">
-            <div class="cart-inside">Cart</div>
-        </div>  
-    </section>
 
     <main>
-        <div class="banner"><img src="images/banner.png" alt=""></div>
-        <div class="products">
-            <table class="tablelist">
-                <th>Product</th>
-                <td>Never gonna give you up</td>
-                <tr>Never gg yp</tr>
-                <td>x1</td>
-            </table> 
-    </main>
-    
+        <div class="sidebar">
+            <div class="navigation">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="categories">categories</a></li>
+                    <li><a href="favourites">Favourites</a></li>
+                    <li><a href="sales">Sales</a></li>
+                </ul>
+            </div>
+            <div class="sidecart">
+                <a href="cart.html">Cart</a>
+            </div>
+            <div class="sidecartlist">
+                <div class="item1">
+                    Album1
+                </div>
+                <div class="item2">
+                    Album2
+                </div>
+            </div>
+        </div>
 
+        <div class="content">
+            <div class="banner">
+                <img src="images/banner.png" alt="">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>You can find us on:</p>
+        </div>
+    </footer>
 </body>
 
 </html>
