@@ -95,13 +95,14 @@ body{
 }
 
 .sidecart > a{
+    padding-top: 0.5rem;
     text-decoration: none;
+    text-align: center;
 }
 .banner{
     position: absolute;
     top: 20%;
     left: 20%;
-  
 }
 
 .banner>img{
