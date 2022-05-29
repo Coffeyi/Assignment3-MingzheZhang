@@ -14,25 +14,27 @@ body{
 .header{
     display: flex;
     position: fixed;
-    background-color: #e8bd00;
+    align-items: center;
+    background-color: #FFDF4B;
     padding: 0%;
     top: 0%;
-    height: 8%;
-    width: 100%;
-    padding-top: 1.2rem;
+    height: 8vh;
+    width: 100vw;
+    box-shadow: 0 1px 4px #00000015;;
 }
 
 .icon{
     font-family: menufont;
     text-decoration: none;
     font-size: 2rem;
-    margin-right: 5rem;
-    padding-left: 2rem;
+    margin-left: 2rem;
 }
 
 .searchbox{
     display: flex;
+    height: 2rem;
     border-radius: 5rem;
+    margin-left: 20vw;
     align-items: center;
     justify-items: center;
     background-color: #FFEFA5;
@@ -40,6 +42,7 @@ body{
 
 .searchbox input{
     flex: 1;
+    width: 30rem;
     padding-left: 1rem;
     background: transparent;
     border: none;
@@ -48,7 +51,7 @@ body{
 
 .searchbox + .headbtn{
     font-family: menufont;
-    margin-left: 60%;
+    margin-left: 30%;
     text-decoration: none;
     color: #47297B;
 }
@@ -61,6 +64,10 @@ body{
     color: #47297B;
 }
 
+main{
+    padding-bottom: 14.4vh;
+}
+
 .sidebar{
     display: flex;
     flex-direction: column;
@@ -69,53 +76,135 @@ body{
     top: 8%;
     left:0%;
     width: 14.7%;
-    height: 92%;
+    height: 92vh;
+    box-shadow: 1px 0px 4px #00000015;
 }
 
 .sidebar > .navigation{
     display: flex;
-    background-color: #2b4bc9;
+    background-color: #FFE863;
     height: 52%;
 
 }
 
-.sidebar > .navigation > ul > li > a{
+.sideicon{
+    width: 2rem;
+}
+
+.navioptions{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.sidebar > .navigation > ul > li > span > a{
+    margin-left: 1em;
+    font-family: menufont, 'sans';
+    font-size: 1.5rem;
     list-style: none;
     text-decoration: none;
     color: #47297B;
 }
 
+
 .sidecart{
     display: flex;
     text-align: center;
     background-color: #FFD93D;
-    height: 4.7%;
+    height: 4.7vh;
     flex-direction: column;
     text-decoration: none;
 }
 
 .sidecart > a{
-    padding-top: 0.5rem;
+    font-family: menufont;
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
     text-decoration: none;
     text-align: center;
 }
-.banner{
+
+.sidecartlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+}
+
+.item1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    background-color: #FFEFA5;
+    border-radius: 1rem;
+    max-width: 92%;
+    max-height: 50%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.item1name{
+    margin-bottom: 0.5rem;
+}
+
+.quantityctrl{
+    align-items: center;
+}
+
+.quantityctrl > span > img{
+    align-content: center;
+}
+
+.price{
+    padding-left: 27%;
+}
+
+.checkoutbtn{
     position: absolute;
-    top: 20%;
-    left: 20%;
+    bottom: 2%;
+    margin-top: 1rem;
+    width: 12.6vw;
+    height: 3.7vh;
+    background-color: #FFD93D;
+    border-radius: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkoutbtn > span{
+    padding-top: 1rem;
+    text-decoration: none;
+}
+
+.banner{
+    margin-left: 19.2vw;
 }
 
 .banner>img{
-    width:50%
+    width:75.5vw;
 }
 
 footer{
     display: flex;
+    position: absolute;
+    bottom: 0;
     width: 85.4%;
-    height: 5rem;
+    height: 14.4vh;
     flex-direction: column;
-    margin-top: 90%;
-    margin-left: 14.6%;
-    bottom: 0%;
-    background-color: #47297B;
+    margin-left: 14.7vw;
+    background-color: #F6D53B;
+    align-content: center;
+}
+
+.socialmedia{
+    align-items: center;
+}
+
+.footer > span > img{
+    margin-top: 1rem;
+    display: inline;
+    width: 2rem;
 }
