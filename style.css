@@ -75,7 +75,7 @@ main{
     position: fixed;
     top: 8%;
     left:0%;
-    width: 14.7%;
+    width: 14.7vw;
     height: 92vh;
     box-shadow: 1px 0px 4px #00000015;
 }
@@ -183,25 +183,120 @@ main{
     transform: translate(-50%, -50%);
 }
 
-.content{
+.maincontent{
+    max-width: 14.5vw;
+    padding-bottom: 8vh;
+}
+
+.viewhistory{
+    display: flex;
+    margin-top: 9vh;
     margin-left: 19.2vw;
-    margin-top: 8vh;
+    margin-bottom: 1rem;
+    width: 75.5vw;
+    height: 4.7vh;
+    background-color: #FFE863;
+    border-radius: 1rem;
+}
+
+.viewhistory > div{
+    font-family: textfont;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+}
+
+.hist{
+    font-family: textfont;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    width: min-content;
+    height: 1.6rem;
+    border-radius: 1rem;
+    background-color: #FFEFA5;
+}
+
+.hist > div{
+    padding-right: 0.7rem;
 }
 
 
+.banner{
+    margin-left: 19.2vw;
+}
+
 .banner>img{
+    
     width:75.5vw;
+}
+
+.newitems{
+    margin-left: 19.2vw;
+}
+
+.sectionheader{
+    margin-top: 0.5rem;
+    border-radius: 1rem;
+    width: 7rem;
+    height: 2rem;
+    background-color: #FFEFA5;
+    text-align: center;
+}
+
+.sectionheader > p{
+    font-family: menufont;
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.divider{
+    margin-top: 0.5rem;
+    width:75.5vw;
+    height: 0.1vh;
+    background-color: #707070;
+}
+.newproducts{
+    margin-top: 0.5rem;
+    display: flex;
+    margin-left: 1vw;
+}
+
+.newproducts > div > img{
+    width: 8rem;
+}
+
+.newproduct1{
+    font-family: textfont;
+    display: flex;
+    margin-right: 2vw;
+    margin-bottom: 4rem;
+}
+
+.newproduct2{
+    font-family: textfont;
+        margin-bottom: 4rem;
+    display: flex;
+}
+
+.productinfo{
+    width: 8rem;
+    background-color: #FFEFA5;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.pcost{
+    margin-top: 4rem;
 }
 
 footer{
     position: absolute;
     bottom: 0;
-    width: 85.4%;
+    width: 85.3%;
     height: 14.4vh;
-    flex-direction: column;
     margin-left: 14.7vw;
     background-color: #F6D53B;
     align-content: center;
+    margin-bottom: 0;
 }
 
 .footertext{
