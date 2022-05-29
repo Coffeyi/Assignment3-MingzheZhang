@@ -1,0 +1,9 @@
+@font-face {
+    font-family: menufont;
+    src: url(../Fonts/Carrinady/Carrinady.ttf);
+}
+
+@font-face {
+    font-family: textfont;
+    src: url(../Fonts/quizma/Quizma_Light_Demo.otf);
+}

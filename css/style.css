@@ -330,3 +330,17 @@ footer{
     padding-top: 2rem;
     padding-left: 1rem;
 }
+
+/* The code below are for the cart.html */
+.cart_page_content{
+    background-color: #FFEFA5;
+    margin: auto;
+    margin-top: 8vh;
+    width: 83vw;
+    height: 90vh;
+    border-radius: 1rem;
+}
+/* The code below are for the productpage.html */
+/* The code below are for the productlist.html */
+/* The code below are for the confirmation.html */
+/* The code below are for the checkout.html */
