@@ -25,10 +25,10 @@
         <table class="content-table">
             <thead>
               <tr>
-                <th>Product</th>
+                <th class="header_product">Product</th>
+                <th class="header_quantity">Quantity</th>
+                <th class="header_total">Total</th>
                 <th></th>
-                <th>Quantity</th>
-                <th>Total</th>
               </tr>
             </thead>
             <tbody>
@@ -41,11 +41,20 @@
                     </div>
                 </td>
                 <td>
-                    
+                    <div class="product_quantity">
+                        <div><img src="images/minus.png" alt=""></div>
+                        <div>1</div>
+                        <div><img src="images/plus.png" alt=""></div>
+                    </div>
                 </td>
-                <td>88,110</td>
-                <td>dcode</td>
+                <td class="product_total">$15</td>
+                <td class="product_cancel">
+                    <button class="cancel">
+                        <img src="images/cancel.png" alt="">
+                    </button>
+                </td>
               </tr>
+
               <tr>
                 <td class="cart_product">
                     <img src="images/glad.png" alt="">
@@ -54,21 +63,30 @@
                         <div class="product_cost">$30</div>
                     </div>
                 </td>
-                <td>
-                </td>
-                <td>
-                    <div>
 
+                <td>
+                    <div class="product_quantity">
+                        <div><img src="images/minus.png" alt=""></div>
+                        <div>1</div>
+                        <div><img src="images/plus.png" alt=""></div>
                     </div>
                 </td>
-                <td>dcode</td>
+                <td class="product_total">$30</td>
+
+                <td class="product_cancel">
+                    <button class="cancel">
+                        <img src="images/cancel.png" alt="">
+                    </button>
+                </td>
               </tr>
+
             </tbody>
           </table>
 
-          <div class="progress"></div>
+          <div class="progress">
+              <div class="checkout_status"><img src="images/status.png" alt=""></div>
+          </div>
     </main>
-
 
 </body>
 
