@@ -19,7 +19,7 @@ body{
     padding: 0%;
     top: 0%;
     height: 8vh;
-    width: 100vw;
+    width: 101vw;
     box-shadow: 0 1px 4px #00000015;
 }
 
@@ -297,7 +297,7 @@ footer{
 
     width: 85.3%;
     height: 14.4vh;
-    margin-left: 14.7vw;
+    margin-left: 14.4vw;
     background-color: #F6D53B;
     align-content: center;
     margin-bottom: 0;
@@ -447,6 +447,7 @@ footer{
     border: none;
 }
 /* The code below are for the productpage.html */
+
 /* The code below are for the productlist.html */
 /* The code below are for the confirmation.html */
 /* The code below are for the checkout.html */
