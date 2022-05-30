@@ -4,39 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="MingZhe Zhang">
-    <meta name="descpription" content="This is the homepage for the OzMusic Website">
-    <link rel="resetcss" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/style.css">
     <title>OzMusic</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="body">
-    <header>
-        <nav id="navigation" class="navigation">
-            <span>
-                <a href="Home.html" class="icon">OzMusic</a>
-            </span>
-            <span>
-                <a href="home.html" class="navbtn">Login</a>
-            </span>
-            <span>
-                <a href="home.html" class="navbtn">Register</a>
-            </span>
-        </nav>
+<body>
+    <header class="header">
+        <a class="icon" href="index.html">OzMusic</a>
+        <span class="searchbox">
+            <input type="text": placeholder="Search">
+            <span class="searchicon"><img src="images/search.png" alt=""></span>
+        </span>
+        <a class="headbtn" href="login">Login</a>
+        <a class="headbtn" href="register">Register</a>
     </header>
 
-    <main class="mainbody">
+    <main class="maincontent">
         <div class="sidebar">
-            <div><a href="Home.html">Home</a></div>
-            <div><a href="Productpage.html">Categories</a></div>
-            this is Productpage
+            <div class="navigation">
+                <ul>
+                    <li>
+                        <span class="navioptions">
+                            <img  class="sideicon" src="images/home.png" alt="">
+                            <a href="index.html">Home</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="navioptions">
+                            <img class="sideicon" src="images/categories.png" alt="">
+                            <a href="index.html">Categories</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="navioptions">
+                            <img class="sideicon" src="images/favourite.png" alt="">
+                            <a href="index.html">Favourites</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="navioptions">
+                            <img class="sideicon" src="images/sales.png" alt="">
+                            <a href="index.html">Sales</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidecart">
+                <a href="cart.html">Cart</a>
+            </div>
+            <div class="sidecartlist">
+                <div class="item1">
+                    <div class="item1name">
+                        AMY WINEHOUSE FRANK
+                    </div>
+                    <span class="quantityctrl">
+                        <span class="-"><img src="images/minus.png" alt=""></span>
+                        <span class="quantity">x1</span>
+                        <span class="+"><img src="images/plus.png" alt=""></span>
+                        <span class="price">$15</span>
+                    </span>
+
+                </div>
+
+                <div class="item1">
+
+                    <div class="item1name">
+                        MUDDY WATERS HOWLIN WOLF BUDDY GUY
+                    </div>
+
+                    <span class="quantityctrl">
+                        <span class="-"><img src="images/minus.png" alt=""></span>
+                        <span class="quantity">x1</span>
+                        <span class="+"><img src="images/plus.png" alt=""></span>
+                        <span class="price">$25</span>
+                    </span>
+
+
+                </div>
+
+                <button class="checkoutbtn">Check Out</button>
+            </div>
         </div>
-        <!--This is a comment--> 
+
+        <div class="content">
+            <div class="viewhistory">
+                <div>Recently viewed:</div>
+                <div class="hist"><div>Jazz</div> </div>
+                <div class="hist"><div>Rock</div> </div>
+            </div>
+
+            <div class="newitems">
+                <div class="newproduct1">
+                    <img src="images/hiphop.png" alt="">
+                    <div class="productinfo">
+                        <div class="pname">ORIGINAL HIP HOP CLASSICS SERIES</div>
+                        <div class="pcost">$15</div>
+                    </div>
+                </div>
+
+                <div class="newproduct1">
+                    <img src="images/defense.png" alt="">
+                    <div class="productinfo">
+                        <div class="pname">IN MY DEFENSE THAT WAS A LIE</div>
+                        <div class="pcost">$20</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
-        twitter
+        <div class="topfooter">
+            <div class="footertext">
+                Find us on:
+            </div>
+            <div class="socialmedia">
+                <img src="images/图像 15.png" alt="">
+            </div>
+            <div class="socialmedia">
+                    <img src="/images/图像 17.png" alt="">
+            </div>
+        </div>
+
+        <div class="copyright">
+            Copyright © 2022 All rights reserved OZmusic Online
+        </div>
     </footer>
 </body>
+<script src="main.js"></script>
+
 </html>
