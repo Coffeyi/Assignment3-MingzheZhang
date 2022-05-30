@@ -335,10 +335,67 @@ footer{
 .cart_page_content{
     background-color: #FFEFA5;
     margin: auto;
-    margin-top: 8vh;
+    margin-top: 9vh;
     width: 83vw;
     height: 90vh;
     border-radius: 1rem;
+}
+.back_button{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: transparent;
+    border: none;
+}
+
+.back_button img{
+    width: 1.5rem;
+}
+
+.cartdivider{
+    margin-top: 3rem;
+    width:75.5vw;
+    height: 0.1vh;
+    background-color: #707070;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin-left: 2rem;
+    font-size: 1rem;
+    max-width: 77vw;
+    overflow: hidden;
+  }
+  
+.content-table thead tr {
+    color: #000000;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content-table th, .content-table td {
+    padding: 1rem 1rem;
+}
+
+.cart_product{
+    display: flex;
+    margin-right: 15rem;
+}
+
+.product_info{
+    font-family: textfont;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.product_cost{
+    margin-top: 80%;
+}
+.content-table thead th {
+    border-bottom: 0.05rem solid #707070;
 }
 /* The code below are for the productpage.html */
 /* The code below are for the productlist.html */
