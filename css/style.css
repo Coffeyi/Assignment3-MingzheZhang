@@ -509,6 +509,84 @@ footer{
 }
 
 /* The code below are for the productlist.html */
+.productlist_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 19rem;
+}
+
+.sortby{
+    margin-left: 52rem;
+}
+
+.sortby > img{
+    width: 18rem;
+}
+
+.productlist_products{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.pro1{
+    display: flex;
+    flex-direction: column;
+    width: 14rem;
+    height: 20rem;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
+    background-color: #FCE380;
+    box-shadow: 1px 1px 2px 0px #00000015;
+}
+
+.pro1_img > img{
+    width: 14rem;
+}
+
+.prof_info{
+    display: flex;
+    flex-direction: row;
+    width: 14rem;
+    height: 14rem;
+    background-color: #FFE989;
+}
+
+.pro1_name{
+    margin-top: 0.5rem;
+}
+
+.pro1_text{
+    display: flex;
+    flex-direction: column;
+    font-family: textfont;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.info_btm{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.pro1_price{
+    margin-right: 5rem;
+}
+
+.addbtn > button{
+    border: none;
+    background-color: #FFD93D;
+    color: #47297B;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 0px #00000015;
+}
+
+.row2{
+    display: flex;
+}
 
 /* The code below are for the checkout.html */
 .checkout_content{
