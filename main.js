@@ -17,3 +17,11 @@ function toCart(){
 function checkOut(){
     window.location.href="checkout.html"
 }
+
+function toConfirm(){
+    window.location.href="confirm.html"
+}
+
+function toFinish(){
+    window.location.href="finish.html"
+}

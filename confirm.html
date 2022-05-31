@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OzMusic</title>
+    <link rel="resetcss" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="icon" href="index.html">OzMusic</a>
+        <span class="searchbox">
+            <input type="text": placeholder="Search">
+            <span class="searchicon">
+                <img src="images/search.png" onclick="toProductPage()" alt="">
+            </span>
+        </span>
+        <a class="headbtn" href="login">Login</a>
+        <a class="headbtn" href="register">Register</a>
+    </header>
+
+    <main class="cart_page_content">
+        <div>
+            <button onclick="history.back()" class="back_button">
+                <img src="images/Back.png" alt="">
+            </button>
+        </div>
+
+        <div class="confirm_content">
+            <div class="confirm_info">
+                <div class="confirm_detail">
+                    <div class="cdline">Company A</div>
+                    <div class="confirm_name">
+                        <div class="cdline">MingZhe</div>
+                        <div class="cdline">Zhang</div>
+                    </div>
+                    <div>
+                        <div class="cdline">Australia</div>
+                        <div class="cdline">Victoria</div>
+                        <div class="cdline">40008</div>
+                    </div>
+                    <div class="cdline">046156178</div>
+                    <div class="cdlline">12 Parkville street Level 2 201, Melbourne CBD</div>
+                </div>
+
+                <div class="c_check">
+                    <input type="checkbox">
+                    <span>I declare that all the information provided above are correct and accurate.</span>
+                </div>
+            </div>
+            
+    
+            <div class="progress">
+                <div class="checkout_status"><img src="images/status3.png" alt=""></div>
+                <div class="item_number"> Total Items: 2</div>
+    
+                <div class="cart_confirm">
+                    <div class="total_cost">Total: $60</div>
+                    <div>
+                        <button onclick="toFinish()" class="checkoutbtn">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+<script src="main.js"></script>
+</html>

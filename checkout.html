@@ -14,7 +14,9 @@
         <a class="icon" href="index.html">OzMusic</a>
         <span class="searchbox">
             <input type="text": placeholder="Search">
-            <span class="searchicon"><img src="images/search.png" alt=""></span>
+            <span class="searchicon">
+                <img src="images/search.png" onclick="toProductPage()" alt="">
+            </span>
         </span>
         <a class="headbtn" href="login">Login</a>
         <a class="headbtn" href="register">Register</a>
@@ -56,14 +58,17 @@
                     <div class="shipping">
                         <div class="stitle">Shipping</div>
                         <label class="container">Company A
+                            <span class="shipping_cost">$15</span> 
                             <input type="checkbox" checked = "checked">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Company B
+                            <span class="shipping_cost">$25</span> 
                             <input type="checkbox">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Company C
+                            <span class="shipping_cost">$35</span> 
                             <input type="checkbox">
                             <span class="checkmark"></span>
                         </label>
@@ -77,9 +82,9 @@
                 <div class="item_number"> Total Items: 2</div>
     
                 <div class="cart_confirm">
-                    <div class="total_cost">Total: $45</div>
+                    <div class="total_cost">Total: $60</div>
                     <div>
-                        <button class="checkoutbtn">Check Out</button>
+                        <button onclick="toConfirm()" class="checkoutbtn">Confirm</button>
                     </div>
                 </div>
             </div>
@@ -87,5 +92,5 @@
     </main>
 
 </body>
-
+<script src="main.js"></script>
 </html>

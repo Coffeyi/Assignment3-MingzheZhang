@@ -15,7 +15,7 @@ body{
     display: flex;
     position: fixed;
     align-items: center;
-    background-color: #FFDF4B;
+    background-color: #F6D53B;
     padding: 0%;
     top: 0%;
     height: 8vh;
@@ -55,6 +55,7 @@ body{
 }
 
 .searchbox + .headbtn{
+    font-size: 1.5rem;
     font-family: menufont;
     margin-left: 10vw;
     text-decoration: none;
@@ -63,7 +64,7 @@ body{
 
 .headbtn + .headbtn{
     font-family: menufont;
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-left: 2rem;
     text-decoration: none;
     color: #47297B;
@@ -261,6 +262,7 @@ main{
     height: 0.1vh;
     background-color: #707070;
 }
+
 .newproducts{
     margin-top: 0.5rem;
     display: flex;
@@ -529,7 +531,7 @@ footer{
     height: 3rem;
     border: none;
     box-shadow: 1px 1px 2px 0px #00000015;
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
 }
 
 .cname{
@@ -542,7 +544,7 @@ footer{
     height: 3rem;
     border: none;
     box-shadow: 1px 1px 2px 0px #00000015;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-right: 2rem;
 }
 
@@ -556,7 +558,7 @@ footer{
     height: 3rem;
     border: none;
     box-shadow: 1px 1px 2px 0px #00000015;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     margin-right: 1rem;
 }
 
@@ -574,6 +576,10 @@ footer{
     margin-right: 2rem;
 }
 
+.stitle{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0.4rem;
+}
 
 /* The code below are for the customized
 checkbox */
@@ -581,15 +587,19 @@ checkbox */
 .container {
     display: block;
     position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
+    padding-top: 1rem;
+    padding-left: 4rem;
+    margin-bottom: 1rem;
     cursor: pointer;
     font-size: 1rem;
+    width: 32rem;
+    height: 3rem;
     background-color: #EFEFEF;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    box-shadow: 1px 1px 2px 0px #00000015;
 }
   
 /* Hide the browser's default checkbox */
@@ -606,9 +616,10 @@ checkbox */
     position: absolute;
     top: 0;
     left: 0;
-    height: 25px;
-    width: 25px;	
+    height: 3rem;
+    width: 3rem;	
     background-color: #EFEFEF;
+    box-shadow: 1px 1px 2px 0px #00000015;
 }
   
 /* On mouse-over, add a grey background color */
@@ -635,10 +646,10 @@ checkbox */
   
 /* Style the checkmark/indicator */
 .container .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
+    left: 40%;
+    top: 30%;
+    width: 0.5rem;
+    height: 1rem;
     border: solid white;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
@@ -649,5 +660,146 @@ checkbox */
 /* The code for the customised checkbox is appropriated and modified from 
 from: https://www.w3schools.com/howto/howto_css_custom_checkbox.asp */
 
-/* The code below are for the confirmation.html */
+.shipping_cost{
+    margin-left: 18rem;
+}
 
+/* The code below are for the confirmation.html */
+.confirm_content{
+    display: flex;
+}
+
+.confirm_info{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    width: 83vw;
+}
+
+.confirm_detial{
+    display: flex;
+    flex-direction: column;
+}
+
+.cdline{
+    width: 32rem;
+    height: 3rem;
+    padding-top: 0.7rem;
+    padding-left: 0.7rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #EFEFEF;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.cdlline{
+    width: 32rem;
+    height: 5rem;
+    padding-top: 0.7rem;
+    padding-left: 0.7rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    background-color: #EFEFEF;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.confirm_name{
+    display: flex;
+}
+
+.confirm_name > div{
+    width: 15rem;
+    height: 3rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.confrim_name + div{
+    margin-right: 1rem;
+}
+
+
+.c_check{
+    margin-left: 1.6rem;
+}
+
+/* The codes below are for finish.html */
+.finish_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14vh;
+}
+
+.finish_notification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: textfont;
+    font-size: 1.4rem;
+    width: 24rem;
+    height: 14rem;
+    border-radius: 1rem;
+    background-color: #FFE863;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.finish_divide{
+    margin-top: 0.5rem;
+    width:18rem;
+    height: 0.1vh;
+    background-color: #707070;
+}
+
+.finish_ordnum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 3.5rem;
+    width: 18rem;
+    height: 8rem;
+    background-color: #FFEFA5;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.finish_home > button{
+    margin-top: 2rem;
+    font-family: textfont;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    background-color: #FFE863;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.finish_recommend{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.finishheader{
+    border-radius: 1rem;
+    width: 10rem;
+    height: 2rem;
+    background-color: #FFEFA5;
+    text-align: center;
+    font-family: menufont;
+    box-shadow: 1px 1px 0px 0px #00000015;
+}
+
+.finishheader > p{
+    padding-top: 0.2rem;
+    margin-top: 0;
+    font-size: 1.4rem;
+}
+
+.finish_recommend > .newproducts > div{
+    margin-bottom: 0;
+}

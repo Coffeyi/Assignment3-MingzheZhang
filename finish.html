@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OzMusic</title>
+    <link rel="resetcss" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="icon" href="index.html">OzMusic</a>
+        <span class="searchbox">
+            <input type="text": placeholder="Search">
+            <span class="searchicon">
+                <img src="images/search.png" onclick="toProductPage()" alt="">
+            </span>
+        </span>
+        <a class="headbtn" href="login">Login</a>
+        <a class="headbtn" href="register">Register</a>
+    </header>
+
+    <main class="finish">
+        <div class="finish_content">
+            <div class="finish_notification">
+                <div>Order Complete!</div>
+                <div class="finish_divide"></div>
+                <div class="finish_ordnum">
+                    <span>Order Number: 114514</span>
+                </div>
+            </div>
+            <div class="finish_home">
+                <button onclick="toHome()">Return to Home</button>
+            </div>
+        </div>
+
+        <div class="finish_recommend">
+            <div class="finishheader">
+                <p>You May Also Like</p>
+            </div>
+            <div class="divider"></div>
+            <div class="newproducts">
+                <div class="newproduct1">
+                    <img onclick="toProductPage()" src="images/amy.png" alt="">
+                    <div class="productinfo">
+                        <div class="pname">AMY WINEHOUSE FRANK</div>
+                        <div class="pcost">$15</div>
+                    </div>
+                </div>
+
+                <div class="newproduct1">
+                    <img onclick="toProductPage()" src="images/defense.png" alt="">
+                    <div class="productinfo">
+                        <div class="pname">IN MY DEFENSE THAT WAS A LIE</div>
+                        <div class="pcost">$20</div>
+                    </div>
+                </div>
+                
+                <div class="newproduct1">
+                    <img src="images/car.png" alt="">
+                    <div class="productinfo">
+                        <div class="pname">GOOD KID: MAAD CITY</div>
+                        <div class="pcost">$30</div>
+                    </div>
+                </div>
+                
+                <div class="newproduct2">
+                    <img src="images/nas.png" alt="">
+                    <div class="productinfo">
+                        <div class="pname">NAS THE STRUGGLE WITHN
+                        </div>
+                        <div class="pcost">$35</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+
+</body>
+<script src="main.js"></script>
+</html>
