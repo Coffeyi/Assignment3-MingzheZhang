@@ -26,41 +26,64 @@
                 <img src="images/Back.png" alt="">
             </button>
         </div>
-
-        <div class="checkout_info">
-            <div class="customer_detail">
-                <div><input type="text" placeholder="Email"></div>
-                <div>
-                    <div><input type="text" placeholder="First Name"></div>
-                    <div><input type="text" placeholder="Last Name"></div>
+        <div class="checkout_content">
+            <div class="checkout_info">
+                <div class="customer_detail">
+                    <div><input type="text" placeholder="Email"></div>
+                    <div class="cname">
+                        <div><input type="text" placeholder="First Name"></div>
+                        <div><input type="text" placeholder="Last Name"></div>
+                    </div>
+                    <div class="caddress">
+                        <div><input type="text" placeholder="Country"></div>
+                        <div><input type="text" placeholder="State/ Region"></div>
+                        <div><input type="number" placeholder="Zip code"></div>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Phone Number">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Detailed Address">     
+                    </div>
                 </div>
-                <div>
-                    <div><input type="text" placeholder="Country"></div>
-                    <div><input type="text" placeholder="State/ Region"></div>
-                    <div><input type="number" placeholder="Zip code"></div>
+    
+                <div class="customer_detail">
+                    <div><input type="text" placeholder="Credit Card Number"></div>
+                    <div class="card_info">
+                        <div><input type="text" placeholder="CSV"></div>
+                        <div><input type="text" placeholder="Expiry Date"></div>
+                    </div>
+                    <div class="shipping">
+                        <div class="stitle">Shipping</div>
+                        <label class="container">Company A
+                            <input type="checkbox" checked = "checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Company B
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Company C
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" placeholder="Phone Number">
-                </div>
-                <div>
-                    <input type="text" placeholder="Detailed Address">     
+            </div>
+            
+    
+            <div class="progress">
+                <div class="checkout_status"><img src="images/status2.png" alt=""></div>
+                <div class="item_number"> Total Items: 2</div>
+    
+                <div class="cart_confirm">
+                    <div class="total_cost">Total: $45</div>
+                    <div>
+                        <button class="checkoutbtn">Check Out</button>
+                    </div>
                 </div>
             </div>
         </div>
-        
-
-        <div class="progress">
-            <div class="checkout_status"><img src="images/status2.png" alt=""></div>
-            <div class="item_number"> Total Items: 2</div>
-
-            <div class="cart_confirm">
-                <div class="total_cost">Total: $45</div>
-                <div>
-                    <button class="checkoutbtn">Check Out</button>
-                </div>
-            </div>
-        </div>
-
     </main>
 
 </body>
