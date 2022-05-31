@@ -168,6 +168,7 @@ main{
 
 .checkoutbtn{
     position: absolute;
+    font-size: 1.1rem;
     bottom: 3%;
     margin-top: 1rem;
     width: 12.6vw;
@@ -177,6 +178,7 @@ main{
     text-align: center;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 3px 2px 0px #00000015;
 }
 
 .checkoutbtn > span{
@@ -294,7 +296,6 @@ main{
 }
 
 footer{
-
     width: 85.3%;
     height: 14.4vh;
     margin-left: 14.4vw;
@@ -446,7 +447,64 @@ footer{
 .checkoutbtn{
     border: none;
 }
+
 /* The code below are for the productpage.html */
+.productpage_back > button{
+    margin-left: 19vw;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.productpage_product{
+    width: 70vw;
+    height: 65vh;
+    margin-left: 19.2vw;
+    display: flex;
+}
+
+.productpage_image > img{
+    width: 30vw;
+}
+
+.productpage_info{
+    font-family: textfont;
+    font-size: 2rem;
+    width: 30vw;
+    height: 65vh;
+    margin-left: 4vw;
+}
+
+.productpage_info > div{
+    margin-bottom: 1rem;
+}
+
+.ppage_cost{
+    margin-top: 8rem;
+}
+
+.ppage_buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.ppbtns{
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 3rem;
+    background-color: #FCE380;
+    border-radius: 0.8rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 4px 2px 0px #00000015;
+}
+
+
+
+.ppage_recommend{
+    margin-left: 19.2vw;
+    margin-top: 10rem;
+}
 
 /* The code below are for the productlist.html */
 /* The code below are for the confirmation.html */
