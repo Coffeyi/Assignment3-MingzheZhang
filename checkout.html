@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OzMusic</title>
+    <link rel="resetcss" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a class="icon" href="index.html">OzMusic</a>
+        <span class="searchbox">
+            <input type="text": placeholder="Search">
+            <span class="searchicon"><img src="images/search.png" alt=""></span>
+        </span>
+        <a class="headbtn" href="login">Login</a>
+        <a class="headbtn" href="register">Register</a>
+    </header>
+
+    <main class="cart_page_content">
+        <div>
+            <button onclick="history.back()" class="back_button">
+                <img src="images/Back.png" alt="">
+            </button>
+        </div>
+
+        <div class="checkout_info">
+            <div class="customer_detail">
+                <div><input type="text" placeholder="Email"></div>
+                <div>
+                    <div><input type="text" placeholder="First Name"></div>
+                    <div><input type="text" placeholder="Last Name"></div>
+                </div>
+                <div>
+                    <div><input type="text" placeholder="Country"></div>
+                    <div><input type="text" placeholder="State/ Region"></div>
+                    <div><input type="number" placeholder="Zip code"></div>
+                </div>
+                <div>
+                    <input type="text" placeholder="Phone Number">
+                </div>
+                <div>
+                    <input type="text" placeholder="Detailed Address">     
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="progress">
+            <div class="checkout_status"><img src="images/status2.png" alt=""></div>
+            <div class="item_number"> Total Items: 2</div>
+
+            <div class="cart_confirm">
+                <div class="total_cost">Total: $45</div>
+                <div>
+                    <button class="checkoutbtn">Check Out</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

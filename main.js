@@ -13,3 +13,7 @@ function toProductPage(){
 function toCart(){
     window.location.href="cart.html"
 }
+
+function checkOut(){
+    window.location.href="checkout.html"
+}
