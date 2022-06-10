@@ -25,3 +25,18 @@ function toConfirm(){
 function toFinish(){
     window.location.href="finish.html"
 }
+
+function minus(){
+    var x = document.getElementById("cart_i2");
+    x.style.display = "none";
+}
+
+function cancel(){
+    var x = document.getElementById("glad");
+    x.style.display = "none";
+}
+
+function addCart(){
+    var x = document.getElementById("cart_i2")
+    x.style.display = "flex";
+}
