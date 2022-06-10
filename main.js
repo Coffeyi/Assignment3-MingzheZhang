@@ -32,7 +32,7 @@ function minus(){
 }
 
 function cancel(){
-    var x = document.getElementById("glad");
+    var x = document.getElementById("amy");
     x.style.display = "none";
 }
 
